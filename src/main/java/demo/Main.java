@@ -23,13 +23,20 @@ public class Main {
 //        Nurse nurse =context.getBean(Nurse.class);
 //        nurse.assist();
 
-        Doctor doctor = context.getBean(Doctor.class);
-        doctor.assist();
-        doctor.setQualification("MBBS");
-        System.out.println(doctor);
+//        Doctor doctor = context.getBean(Doctor.class);
+//        doctor.assist();
+//        doctor.setQualification("MBBS");
+//        System.out.println(doctor);
+//
+//        Doctor doctor1 = context.getBean(Doctor.class);
+//        doctor1.assist();
+//        System.out.println(doctor1);
 
-        Doctor doctor1 = context.getBean(Doctor.class);
-        doctor1.assist();
-        System.out.println(doctor1);
+
+        // ShoppingCart App
+
+        ShoppingCart cart = context.getBean(ShoppingCart.class);
+        cart.checkout();
+
     }
 }
