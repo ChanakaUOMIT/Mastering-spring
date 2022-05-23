@@ -36,7 +36,7 @@ public class Main {
         // ShoppingCart App
 
         ShoppingCart cart = context.getBean(ShoppingCart.class);
-        cart.checkout();
+        cart.checkout("CANCELLED");
 
     }
 }
